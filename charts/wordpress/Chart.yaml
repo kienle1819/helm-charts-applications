@@ -16,5 +16,5 @@ appVersion: "6.6.2-apache"
 dependencies:
   - name: mariadb
     version: "0.3.14"
-    repository: "https://kienle1819.github.io/helm-charts"
+    repository: "https://kienle1819.github.io/helm-charts-applications"
     condition: mariadb.enabled

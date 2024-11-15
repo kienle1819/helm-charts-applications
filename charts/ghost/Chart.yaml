@@ -14,9 +14,9 @@ appVersion: "5.100.1"
 dependencies:
   - name: mariadb
     version: "0.2.28"
-    repository: "https://kienle1819.github.io/helm-charts"
+    repository: "https://kienle1819.github.io/helm-charts-applications"
     condition: mariadb.enabled
   - name: mysql
     version: "0.2.0"
-    repository: "https://kienle1819.github.io/helm-charts"
+    repository: "https://kienle1819.github.io/helm-charts-applications"
     condition: mysql.enabled

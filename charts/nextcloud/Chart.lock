@@ -1,12 +1,12 @@
 dependencies:
 - name: mariadb
-  repository: https://kienle1819.github.io/helm-charts
+  repository: https://kienle1819.github.io/helm-charts-applications
   version: 0.3.14
 - name: postgres
-  repository: https://kienle1819.github.io/helm-charts
+  repository: https://kienle1819.github.io/helm-charts-applications
   version: 0.4.8
 - name: redis
-  repository: https://kienle1819.github.io/helm-charts
+  repository: https://kienle1819.github.io/helm-charts-applications
   version: 0.7.10
 digest: sha256:b101d25c07fe1178fd3d347a3a9effd918ef273c690364d2af9153bc06896672
 generated: "2024-03-06T16:52:42.874715445+01:00"

@@ -7,7 +7,7 @@ A Helm chart for Remark42 on Kubernetes
 ## TL;DR
 
 ```bash
-helm repo add kienle1819 https://kienle1819.github.io/helm-charts/
+helm repo add kienle1819 https://kienle1819.github.io/helm-charts-applications/
 helm install my-release kienle1819/remark42
 ```
 

@@ -15,7 +15,7 @@ There is no automatic database upgrade from PostgreSQL 13.x (Chart version 0.2.x
 ## TL;DR
 
 ```bash
-helm repo add kienle1819 https://kienle1819.github.io/helm-charts/
+helm repo add kienle1819 https://kienle1819.github.io/helm-charts-applications/
 helm install my-release kienle1819/postgres
 ```
 

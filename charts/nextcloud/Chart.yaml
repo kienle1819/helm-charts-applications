@@ -16,13 +16,13 @@ appVersion: "30.0.2-apache"
 dependencies:
   - name: mariadb
     version: "0.3.14"
-    repository: "https://kienle1819.github.io/helm-charts"
+    repository: "https://kienle1819.github.io/helm-charts-applications"
     condition: mariadb.enabled
   - name: postgres
     version: "0.4.8"
-    repository: "https://kienle1819.github.io/helm-charts"
+    repository: "https://kienle1819.github.io/helm-charts-applications"
     condition: postgres.enabled
   - name: redis
     version: "0.7.10"
-    repository: "https://kienle1819.github.io/helm-charts"
+    repository: "https://kienle1819.github.io/helm-charts-applications"
     condition: redis.enabled

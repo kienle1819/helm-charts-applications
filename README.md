@@ -1,10 +1,10 @@
-# helm-charts
+# helm-charts-applications
 Helm charts for some famous open source projects - ready to use in your Kubernetes environment
 
 ## TL;DR
 
 ```bash
-helm repo add kienle1819 https://kienle1819.github.io/helm-charts/
+helm repo add kienle1819 https://kienle1819.github.io/helm-charts-applications/
 helm repo update
 ```
 
@@ -24,7 +24,7 @@ The advantage is that most of these charts are platform independent and will run
 To add this repository to the helm configuration:
 
 ```bash
-helm repo add kienle1819 https://kienle1819.github.io/helm-charts/
+helm repo add kienle1819 https://kienle1819.github.io/helm-charts-applications/
 ```
 
 ## Using this helm repository

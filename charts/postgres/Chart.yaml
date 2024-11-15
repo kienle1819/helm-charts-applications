@@ -6,7 +6,7 @@ type: application
 
 maintainers:
   - name: kienle1819
-    url: https://github.com/kienle1819/helm-charts
+    url: https://github.com/kienle1819/helm-charts-applications
 
 keywords:
   - database
