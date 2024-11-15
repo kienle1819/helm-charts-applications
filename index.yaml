@@ -1,0 +1,270 @@
+apiVersion: v1
+entries:
+  etcd:
+  - apiVersion: v2
+    appVersion: v3.5.16
+    created: "2024-11-15T22:02:47.269674+07:00"
+    description: A Helm chart for etcd on Kubernetes
+    digest: b4181edb1ab983a4c6c1604825a57049aa69fef712f0d7cc47c649ce4ebd3259
+    icon: https://etcd.io/etcd-horizontal-white.png
+    keywords:
+    - database
+    - etcd
+    maintainers:
+    - name: kienle1819
+      url: https://github.com/kienle1819/helm-charts-applications
+    name: etcd
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/etcd-1.0.2.tgz
+    version: 1.0.2
+  ghost:
+  - apiVersion: v2
+    appVersion: 5.100.1
+    created: "2024-11-15T22:02:47.271096+07:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://kienle1819.github.io/helm-charts-applications
+      version: 0.2.28
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://kienle1819.github.io/helm-charts-applications
+      version: 0.2.0
+    description: A Helm chart for Ghost on Kubernetes
+    digest: d982f2b3a75ef1360cbb5246092a81b981d7d0325826307274201805f663a10f
+    maintainers:
+    - name: kienle1819
+    name: ghost
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/ghost-0.140.1.tgz
+    version: 0.140.1
+  gitea:
+  - apiVersion: v2
+    appVersion: 1.22.3
+    created: "2024-11-15T22:02:47.273245+07:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://kienle1819.github.io/helm-charts-applications
+      version: 0.2.28
+    - condition: postgres.enabled
+      name: postgres
+      repository: https://kienle1819.github.io/helm-charts-applications
+      version: 0.2.26
+    - condition: redis.enabled
+      name: redis
+      repository: https://kienle1819.github.io/helm-charts-applications
+      version: 0.6.14
+    description: A Helm chart for Gitea on Kubernetes
+    digest: d38e1a5e64d9b4e880d6ed44f7bf2cfbe2d0392c89ced4f1f2c68de6aa8616bd
+    maintainers:
+    - name: kienle1819
+    name: gitea
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/gitea-0.11.3.tgz
+    version: 0.11.3
+  graylog:
+  - apiVersion: v2
+    appVersion: 6.1.2
+    created: "2024-11-15T22:02:47.27515+07:00"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://kienle1819.github.io/helm-charts-applications
+      version: 0.6.8
+    description: A Helm chart for Graylog on Kubernetes
+    digest: 295ef53d33ed88ed0c990ae61f01f76139cc88ea400484d24496fc582bfc231f
+    maintainers:
+    - name: kienle1819
+    name: graylog
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/graylog-0.9.2.tgz
+    version: 0.9.2
+  mariadb:
+  - apiVersion: v2
+    appVersion: 11.4.3
+    created: "2024-11-15T22:02:47.27568+07:00"
+    description: A Helm chart for MariaDB on Kubernetes
+    digest: 04b1a35332e412aae7b44bc22cbe6693455ca52e4b01be16f6a1152e677caac1
+    icon: https://mariadb.com/wp-content/uploads/2019/11/mariadb-logo_black-transparent-600x150.png
+    keywords:
+    - database
+    - mariadb
+    maintainers:
+    - name: kienle1819
+      url: https://github.com/kienle1819/helm-charts-applications
+    name: mariadb
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/mariadb-3.2.0.tgz
+    version: 3.2.0
+  mongodb:
+  - apiVersion: v2
+    appVersion: 7.0.15
+    created: "2024-11-15T22:02:47.276364+07:00"
+    description: A Helm chart to deploy MongoDB
+    digest: 8d659da85f12c071b06804705bbc0a87d4463a89ca96ed5d28eb4e71f17947ef
+    maintainers:
+    - name: kienle1819
+    name: mongodb
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/mongodb-0.6.9.tgz
+    version: 0.6.9
+  mysql:
+  - apiVersion: v2
+    appVersion: 8.4.3
+    created: "2024-11-15T22:02:47.27685+07:00"
+    description: A Helm chart for MySQL on Kubernetes
+    digest: 6c55c124cbf1a87d9e8f954e3b23b4576c2ead2fd35e118388e80fe982d9f125
+    icon: https://www.mysql.com/common/logos/powered-by-mysql-88x31.png
+    keywords:
+    - database
+    - mysql
+    maintainers:
+    - name: kienle1819
+      url: https://github.com/kienle1819/helm-charts-applications
+    name: mysql
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/mysql-3.0.1.tgz
+    version: 3.0.1
+  nextcloud:
+  - apiVersion: v2
+    appVersion: 30.0.2-apache
+    created: "2024-11-15T22:02:47.279109+07:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://kienle1819.github.io/helm-charts-applications
+      version: 0.3.14
+    - condition: postgres.enabled
+      name: postgres
+      repository: https://kienle1819.github.io/helm-charts-applications
+      version: 0.4.8
+    - condition: redis.enabled
+      name: redis
+      repository: https://kienle1819.github.io/helm-charts-applications
+      version: 0.7.10
+    description: A Helm chart for Nextcloud on Kubernetes
+    digest: d7d509cad640fe7030fe1445f9d8381093892d54545ffe35496c7bd5dbbaf7be
+    maintainers:
+    - name: kienle1819
+    name: nextcloud
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/nextcloud-0.18.2.tgz
+    version: 0.18.2
+  postgres:
+  - apiVersion: v2
+    appVersion: "17.0"
+    created: "2024-11-15T22:02:47.279675+07:00"
+    description: A Helm chart for PostgreSQL on Kubernetes
+    digest: f7fb8089b695628e5a6a4ce1e1485a7fc566c69dd064eba6113a8437de1e4ec3
+    icon: https://www.postgresql.org/media/img/about/press/elephant64.png
+    keywords:
+    - database
+    - postgres
+    maintainers:
+    - name: kienle1819
+      url: https://github.com/kienle1819/helm-charts-applications
+    name: postgres
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/postgres-1.5.0.tgz
+    version: 1.5.0
+  rabbitmq:
+  - apiVersion: v2
+    appVersion: 4.0.3
+    created: "2024-11-15T22:02:47.280592+07:00"
+    description: A Helm chart for a RabbitMQ cluster on Kubernetes
+    digest: 19e945693c124c8cb7fb53af939f1be94e99b8ceab4f34bb58564e7a408321d4
+    icon: https://www.rabbitmq.com/img/rabbitmq-logo-with-name.svg
+    keywords:
+    - messaging
+    - rabbitmq
+    maintainers:
+    - name: kienle1819
+      url: https://github.com/kienle1819/helm-charts-applications
+    name: rabbitmq
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/rabbitmq-2.0.1.tgz
+    version: 2.0.1
+  redis:
+  - apiVersion: v2
+    appVersion: 7.4.1
+    created: "2024-11-15T22:02:47.281351+07:00"
+    description: A Helm chart for Redis on Kubernetes
+    digest: 393e637ff91746cc4b7dd6776247b76416a5a447f07036bd03bca4441b4aa8b4
+    icon: https://redis.io/wp-content/uploads/2024/04/Logotype.svg
+    keywords:
+    - cache
+    - redis
+    maintainers:
+    - name: kienle1819
+      url: https://github.com/kienle1819/helm-charts-applications
+    name: redis
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/redis-1.3.2.tgz
+    version: 1.3.2
+  remark42:
+  - apiVersion: v2
+    appVersion: v1.14.0
+    created: "2024-11-15T22:02:47.282789+07:00"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://kienle1819.github.io/helm-charts-applications
+      version: 1.3.2
+    description: A Helm chart for Remark42 comment system
+    digest: 2736519c6c371ac0454ad13d646f9844aedad830a36e85733be18d6fcfe0616d
+    maintainers:
+    - name: kienle1819
+    name: remark42
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/remark42-0.8.0.tgz
+    version: 0.8.0
+  valkey:
+  - apiVersion: v2
+    appVersion: 8.0.1
+    created: "2024-11-15T22:02:47.283499+07:00"
+    description: A Helm chart for Valkey on Kubernetes
+    digest: c22f0b017d20dc2bd05c747542511feac7a79a5d1985db96dbad8f72f1da0172
+    icon: https://valkey.io/img/Valkey-logo.svg
+    keywords:
+    - cache
+    - valkey
+    maintainers:
+    - name: kienle1819
+      url: https://github.com/kienle1819/helm-charts-applications
+    name: valkey
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/valkey-2.0.0.tgz
+    version: 2.0.0
+  wordpress:
+  - apiVersion: v2
+    appVersion: 6.6.2-apache
+    created: "2024-11-15T22:02:47.284363+07:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://kienle1819.github.io/helm-charts-applications
+      version: 0.3.14
+    description: A Helm chart for Wordpress on Kubernetes
+    digest: 08fb52c1377fd3d12e067a9f1ee8a349809d514f88e72212615538105813a0aa
+    maintainers:
+    - name: kienle1819
+    name: wordpress
+    type: application
+    urls:
+    - https://kienle1819.github.io/helm-charts-applications/wordpress-0.12.1.tgz
+    version: 0.12.1
+generated: "2024-11-15T22:02:47.268684+07:00"
