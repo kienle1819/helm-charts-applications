@@ -3,7 +3,7 @@ entries:
   etcd:
   - apiVersion: v2
     appVersion: v3.5.16
-    created: "2024-11-15T17:22:47.182807+07:00"
+    created: "2024-11-15T17:27:19.055625+07:00"
     description: A Helm chart for etcd on Kubernetes
     digest: 9e5dfcd99558d06dab61482a380d1adc501e5c81eea9467fe6764fc95e0008eb
     icon: https://etcd.io/etcd-horizontal-white.png
@@ -21,7 +21,7 @@ entries:
   ghost:
   - apiVersion: v2
     appVersion: 5.100.1
-    created: "2024-11-15T17:22:47.18426+07:00"
+    created: "2024-11-15T17:27:19.057114+07:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -43,7 +43,7 @@ entries:
   gitea:
   - apiVersion: v2
     appVersion: 1.22.3
-    created: "2024-11-15T17:22:47.187862+07:00"
+    created: "2024-11-15T17:27:19.061407+07:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -69,7 +69,7 @@ entries:
   graylog:
   - apiVersion: v2
     appVersion: 6.1.2
-    created: "2024-11-15T17:22:47.189656+07:00"
+    created: "2024-11-15T17:27:19.062828+07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -87,7 +87,7 @@ entries:
   mariadb:
   - apiVersion: v2
     appVersion: 11.4.3
-    created: "2024-11-15T17:22:47.190247+07:00"
+    created: "2024-11-15T17:27:19.06341+07:00"
     description: A Helm chart for MariaDB on Kubernetes
     digest: f51d005920628e6a83abb424bd0c4600848df4f21410cc0946b749cc04290125
     icon: https://mariadb.com/wp-content/uploads/2019/11/mariadb-logo_black-transparent-600x150.png
@@ -105,7 +105,7 @@ entries:
   mongodb:
   - apiVersion: v2
     appVersion: 7.0.15
-    created: "2024-11-15T17:22:47.191011+07:00"
+    created: "2024-11-15T17:27:19.064165+07:00"
     description: A Helm chart to deploy MongoDB
     digest: dd9aa09daa4c8c1d56736b7374d751cb098b552fbc3a1accd62c3bdb752e3d43
     maintainers:
@@ -118,7 +118,7 @@ entries:
   mysql:
   - apiVersion: v2
     appVersion: 8.4.3
-    created: "2024-11-15T17:22:47.191605+07:00"
+    created: "2024-11-15T17:27:19.064759+07:00"
     description: A Helm chart for MySQL on Kubernetes
     digest: 58af75a4a98ce60a8a07e220d95b765f61ad5f6ba53836b2eeddea5ed5846f6b
     icon: https://www.mysql.com/common/logos/powered-by-mysql-88x31.png
@@ -136,7 +136,7 @@ entries:
   nextcloud:
   - apiVersion: v2
     appVersion: 30.0.2-apache
-    created: "2024-11-15T17:22:47.194722+07:00"
+    created: "2024-11-15T17:27:19.067541+07:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -162,7 +162,7 @@ entries:
   postgres:
   - apiVersion: v2
     appVersion: "17.0"
-    created: "2024-11-15T17:22:47.19531+07:00"
+    created: "2024-11-15T17:27:19.068144+07:00"
     description: A Helm chart for PostgreSQL on Kubernetes
     digest: 492a168adc7ac5b1d487caebeb2acd82339b13926c1cf3a3d13aa1f21d5204cc
     icon: https://www.postgresql.org/media/img/about/press/elephant64.png
@@ -180,7 +180,7 @@ entries:
   rabbitmq:
   - apiVersion: v2
     appVersion: 4.0.3
-    created: "2024-11-15T17:22:47.196087+07:00"
+    created: "2024-11-15T17:27:19.06894+07:00"
     description: A Helm chart for a RabbitMQ cluster on Kubernetes
     digest: 89ed57d4effa81ef13761b7e40dcbb4fdaec97ada45743d6f4e42f6970b52add
     icon: https://www.rabbitmq.com/img/rabbitmq-logo-with-name.svg
@@ -198,7 +198,7 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: 7.4.1
-    created: "2024-11-15T17:22:47.196847+07:00"
+    created: "2024-11-15T17:27:19.069689+07:00"
     description: A Helm chart for Redis on Kubernetes
     digest: 2e497b69725535423a8493431418effbff5f8f166550516610e2d761ac2402b8
     icon: https://redis.io/wp-content/uploads/2024/04/Logotype.svg
@@ -216,7 +216,7 @@ entries:
   remark42:
   - apiVersion: v2
     appVersion: v1.14.0
-    created: "2024-11-15T17:22:47.199057+07:00"
+    created: "2024-11-15T17:27:19.071312+07:00"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -234,7 +234,7 @@ entries:
   valkey:
   - apiVersion: v2
     appVersion: 8.0.1
-    created: "2024-11-15T17:22:47.199898+07:00"
+    created: "2024-11-15T17:27:19.072457+07:00"
     description: A Helm chart for Valkey on Kubernetes
     digest: 4aaac8058cc18ed9ef042ec73f0875f9aa8e5ddeb3bd1f45793a255377af5ead
     icon: https://valkey.io/img/Valkey-logo.svg
@@ -252,7 +252,7 @@ entries:
   wordpress:
   - apiVersion: v2
     appVersion: 6.6.2-apache
-    created: "2024-11-15T17:22:47.200887+07:00"
+    created: "2024-11-15T17:27:19.073478+07:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -267,4 +267,4 @@ entries:
     urls:
     - https://kienle1819.github.io/helm-charts-applications/wordpress-0.12.1.tgz
     version: 0.12.1
-generated: "2024-11-15T17:22:47.181326+07:00"
+generated: "2024-11-15T17:27:19.053778+07:00"
