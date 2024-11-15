@@ -5,8 +5,8 @@ description: A Helm chart for MariaDB on Kubernetes
 type: application
 
 maintainers:
-  - name: groundhog2k
-    url: https://github.com/groundhog2k/helm-charts
+  - name: kienle1819
+    url: https://github.com/kienle1819/helm-charts
 
 keywords:
   - database

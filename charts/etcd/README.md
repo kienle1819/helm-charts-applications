@@ -11,8 +11,8 @@ A Helm chart for a Etcd HA-cluster on Kubernetes
 ## TL;DR
 
 ```bash
-helm repo add groundhog2k https://groundhog2k.github.io/helm-charts/
-helm install my-release groundhog2k/etcd
+helm repo add kienle1819 https://kienle1819.github.io/helm-charts/
+helm install my-release kienle1819/etcd
 ```
 
 ## Introduction
@@ -32,7 +32,7 @@ It fully supports deployment of the multi-architecture docker image.
 To install the chart with the release name `my-release`:
 
 ```bash
-helm install my-release groundhog2k/etcd
+helm install my-release kienle1819/etcd
 ```
 
 ## Uninstalling the Chart

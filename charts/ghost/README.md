@@ -13,8 +13,8 @@ A Helm chart for Ghost blog on Kubernetes
 ## TL;DR
 
 ```bash
-helm repo add groundhog2k https://groundhog2k.github.io/helm-charts/
-helm install my-release groundhog2k/ghost
+helm repo add kienle1819 https://kienle1819.github.io/helm-charts/
+helm install my-release kienle1819/ghost
 ```
 
 ## Introduction
@@ -34,7 +34,7 @@ It fully supports deployment of the multi-architecture docker image.
 To install the chart with the release name `my-release`:
 
 ```bash
-helm install my-release groundhog2k/ghost
+helm install my-release kienle1819/ghost
 ```
 
 ## Uninstalling the Chart
@@ -49,8 +49,8 @@ helm uninstall my-release
 
 | Repository | Name | Version |
 |------------|------|---------|
-| @groundhog2k | mariadb | 0.2.28 |
-| @groundhog2k | mysql | 0.2.0 |
+| @kienle1819 | mariadb | 0.2.28 |
+| @kienle1819 | mysql | 0.2.0 |
 
 ## Common parameters
 

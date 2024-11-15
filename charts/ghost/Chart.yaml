@@ -5,7 +5,7 @@ description: A Helm chart for Ghost on Kubernetes
 type: application
 
 maintainers:
-  - name: groundhog2k
+  - name: kienle1819
 
 version: "0.140.1"
 
@@ -14,9 +14,9 @@ appVersion: "5.100.1"
 dependencies:
   - name: mariadb
     version: "0.2.28"
-    repository: "https://groundhog2k.github.io/helm-charts"
+    repository: "https://kienle1819.github.io/helm-charts"
     condition: mariadb.enabled
   - name: mysql
     version: "0.2.0"
-    repository: "https://groundhog2k.github.io/helm-charts"
+    repository: "https://kienle1819.github.io/helm-charts"
     condition: mysql.enabled

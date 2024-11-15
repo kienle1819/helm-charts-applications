@@ -11,8 +11,8 @@ A Helm chart for Gitea on Kubernetes
 ## TL;DR
 
 ```bash
-helm repo add groundhog2k https://groundhog2k.github.io/helm-charts/
-helm install my-release groundhog2k/gitea
+helm repo add kienle1819 https://kienle1819.github.io/helm-charts/
+helm install my-release kienle1819/gitea
 ```
 
 ## Introduction
@@ -32,7 +32,7 @@ It fully supports deployment of the multi-architecture docker image.
 To install the chart with the release name `my-release`:
 
 ```bash
-helm install my-release groundhog2k/gitea
+helm install my-release kienle1819/gitea
 ```
 
 ## Uninstalling the Chart
@@ -47,9 +47,9 @@ helm uninstall my-release
 
 | Repository | Name | Version |
 |------------|------|---------|
-| @groundhog2k | mariadb | 0.2.28 |
-| @groundhog2k | postgres | 0.2.26 |
-| @groundhog2k | redis | 0.6.14 |
+| @kienle1819 | mariadb | 0.2.28 |
+| @kienle1819 | postgres | 0.2.26 |
+| @kienle1819 | redis | 0.6.14 |
 
 ## Common parameters
 

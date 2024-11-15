@@ -11,8 +11,8 @@ A Helm chart for Graylog on Kubernetes
 ## TL;DR
 
 ```bash
-helm repo add groundhog2k https://groundhog2k.github.io/helm-charts/
-helm install my-release groundhog2k/graylog
+helm repo add kienle1819 https://kienle1819.github.io/helm-charts/
+helm install my-release kienle1819/graylog
 ```
 
 ## Introduction
@@ -35,7 +35,7 @@ MongoDB can be referenced by installed using the subchart with `mongodb.enabled`
 To install the chart with the release name `my-release`:
 
 ```bash
-helm install my-release groundhog2k/graylog
+helm install my-release kienle1819/graylog
 ```
 
 ## Uninstalling the Chart
@@ -50,7 +50,7 @@ helm uninstall my-release
 
 | Repository | Name | Version |
 |------------|------|---------|
-| @groundhog2k | mongodb | 0.6.8 |
+| @kienle1819 | mongodb | 0.6.8 |
 
 ## Common parameters
 

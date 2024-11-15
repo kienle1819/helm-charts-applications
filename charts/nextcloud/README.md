@@ -11,8 +11,8 @@ A Helm chart for Nextcloud on Kubernetes
 ## TL;DR
 
 ```bash
-helm repo add groundhog2k https://groundhog2k.github.io/helm-charts/
-helm install my-release groundhog2k/nextcloud
+helm repo add kienle1819 https://kienle1819.github.io/helm-charts/
+helm install my-release kienle1819/nextcloud
 ```
 
 ## Introduction
@@ -32,7 +32,7 @@ It fully supports deployment of the multi-architecture docker image.
 To install the chart with the release name `my-release`:
 
 ```bash
-helm install my-release groundhog2k/nextcloud
+helm install my-release kienle1819/nextcloud
 ```
 
 ## Upgrading the Chart[](#upgrade)
@@ -40,7 +40,7 @@ helm install my-release groundhog2k/nextcloud
 To upgrade the chart or Nextcloud version with the release name `my-release`:
 
 ```bash
-helm upgrade my-release groundhog2k/nextcloud
+helm upgrade my-release kienle1819/nextcloud
 ```
 
 ## Post-upgrade steps
@@ -50,7 +50,7 @@ After some Nextcloud version upgrades it's necessary to update database indicies
 The post upgrade will be started during the Nextcloud/chart upgrade after a delay, which is configurable by setting `postUpgradeHook.delay`. The default value is 30 seconds.
 
 ```bash
-helm upgrade my-release groundhog2k/nextcloud --set postUpgradeHook.delay=120
+helm upgrade my-release kienle1819/nextcloud --set postUpgradeHook.delay=120
 ```
 
 ## Custom *.config.php files
@@ -82,9 +82,9 @@ helm uninstall my-release
 
 | Repository | Name | Version |
 |------------|------|---------|
-| @groundhog2k | mariadb | 0.3.14 |
-| @groundhog2k | postgres | 0.4.8 |
-| @groundhog2k | redis | 0.7.10 |
+| @kienle1819 | mariadb | 0.3.14 |
+| @kienle1819 | postgres | 0.4.8 |
+| @kienle1819 | redis | 0.7.10 |
 
 ## Common parameters
 
