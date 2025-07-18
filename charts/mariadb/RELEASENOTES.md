@@ -95,8 +95,21 @@
 | 3.0.0 | 10.6.17 (LTS) | Final version with configuration secret, extra config and extra volume support |
 | 3.0.1 | 10.6.18 (LTS) | Upgraded MariaDB to 10.6.18 |
 | 3.0.2 | 10.6.19 (LTS) | Upgraded MariaDB to 10.6.19 |
+| 3.0.3 | 10.6.20 (LTS) | Upgraded MariaDB to 10.6.20 |
 | 3.1.0 | 10.11.7 (LTS) | Final version with configuration secret, extra config and extra volume support |
 | 3.1.1 | 10.11.8 (LTS) | Upgraded MariaDB to 10.11.8 |
 | 3.1.2 | 10.11.9 (LTS) | Upgraded MariaDB to 10.11.9 |
+| 3.1.3 | 10.11.10 (LTS) | Upgraded MariaDB to 10.11.10 |
 | 3.2.0 | 11.4.3 (LTS) | Upgraded MariaDB to 11.4.3 |
+| 3.2.1 | 11.4.4 (LTS) | Upgraded MariaDB to 11.4.4 |
+| 4.0.0 | 10.5.28 (LTS) | Upgraded MariaDB to 10.5.28 |
+| 4.0.1 | 10.5.29 (LTS) | Upgraded MariaDB to 10.5.29 |
+| 4.1.0 | 10.6.21 (LTS) | Upgraded MariaDB to 10.6.21 |
+| 4.1.1 | 10.6.22 (LTS) | Upgraded MariaDB to 10.6.22 |
+| 4.2.0 | 10.11.11 (LTS) | Upgraded MariaDB to 10.11.11 |
+| 4.2.1 | 10.11.13 (LTS) | Upgraded MariaDB to 10.11.13 |
+| 4.3.0 | 11.4.5 (LTS) | Upgraded MariaDB to 11.4.5 |
+| 4.3.1 | 11.4.5 (LTS) | Implemented option for emptyDirSizeLimit (thx @tim-hanssen) |
+| 4.3.2 | 11.4.7 (LTS) | Upgraded MariaDB to 11.4.7 |
+| 4.4.0 | 11.8.2 (LTS) | Upgraded MariaDB to 11.8.2 |
 | | | |

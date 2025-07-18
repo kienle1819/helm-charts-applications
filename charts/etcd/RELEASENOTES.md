@@ -17,4 +17,8 @@
 | 1.0.0 | v3.5.13 | Final version with configuration secret, extra config and extra volume support |
 | 1.0.1 | v3.5.15 | Upgraded etcd to v3.5.15 |
 | 1.0.2 | v3.5.16 | Upgraded etcd to v3.5.16 |
+| 1.0.3 | v3.5.17 | Upgraded etcd to v3.5.17 |
+| 1.0.4 | v3.5.18 | Upgraded etcd to v3.5.18 |
+| 1.0.6 | v3.5.20 | Upgraded etcd to v3.5.20 |
+| 1.0.7 | v3.5.21 | Upgraded etcd to v3.5.21 |
 | | | |

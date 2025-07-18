@@ -1,6 +1,6 @@
 # MariaDB
 
-![Version: 3.2.0](https://img.shields.io/badge/Version-3.2.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 11.4.3](https://img.shields.io/badge/AppVersion-11.4.3-informational?style=flat-square)
+![Version: 4.4.0](https://img.shields.io/badge/Version-4.4.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 11.8.2](https://img.shields.io/badge/AppVersion-11.8.2-informational?style=flat-square)
 
 ## Changelog
 
@@ -117,6 +117,7 @@ The policyTypes will be automatically set
 | storage.persistentVolumeClaimName | string | `nil` | PVC name when existing storage volume should be used |
 | storage.volumeName | string | `"db-volume"` | Internal volume name and prefix of a created PVC |
 | storage.requestedSize | string | `nil` | Size for new PVC, when no existing PVC is used |
+| storage.emptyDirSizeLimit | string | `nil` | Optional max size of an emptyDir if no PVC is used |
 | storage.className | string | `nil` | Storage class name |
 | storage.keepPvc | bool | `false` | Keep a created Persistent volume claim when uninstalling the helm chart (only for option `useDeployment: true`) |
 | storage.annotations | object | `{}` | Additional storage annotations |

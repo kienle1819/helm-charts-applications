@@ -79,4 +79,20 @@
 | 0.11.1 | 1.22.1 | Updated to Gitea 1.22.1 |
 | 0.11.2 | 1.22.2 | Updated to Gitea 1.22.2 |
 | 0.11.3 | 1.22.3 | Updated to Gitea 1.22.3 |
+| 0.11.4 | 1.22.4 | Updated to Gitea 1.22.4 |
+| 0.11.5 | 1.22.5 | Updated to Gitea 1.22.5 |
+| 0.11.6 | 1.22.6 | Updated to Gitea 1.22.6 |
+| 0.12.0 | 1.23.0 | Updated to Gitea 1.23.0 |
+| 0.12.1 | 1.23.1 | Updated to Gitea 1.23.1 |
+| 0.12.2 | 1.23.2 | Updated to Gitea 1.23.2 |
+| 0.12.3 | 1.23.3 | Updated to Gitea 1.23.3 |
+| 0.12.4 | 1.23.4 | Updated to Gitea 1.23.4 |
+| 0.12.5 | 1.23.5 | Updated to Gitea 1.23.5 |
+| 0.12.6 | 1.23.6 | Updated to Gitea 1.23.6 |
+| 0.12.7 | 1.23.7 | Updated to Gitea 1.23.7 |
+| 0.12.8 | 1.23.8 | Updated to Gitea 1.23.8 |
+| 0.13.0 | 1.24.0 | Updated to Gitea 1.24.0 |
+| 0.13.1 | 1.24.1 | Updated to Gitea 1.24.1 |
+| 0.13.2 | 1.24.2 | Updated to Gitea 1.24.2 |
+| 0.13.3 | 1.24.3 | Updated to Gitea 1.24.3 |
 | | | |

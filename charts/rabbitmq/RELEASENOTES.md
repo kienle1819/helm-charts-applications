@@ -128,4 +128,13 @@
 | 1.1.7 | 3.13.7 | Upgraded to RabbitMQ 3.13.7 |
 | 2.0.0 | 4.0.1 | Upgraded to RabbitMQ 4.0.1 |
 | 2.0.1 | 4.0.3 | Upgraded to RabbitMQ 4.0.3 |
+| 2.0.2 | 4.0.4 | Upgraded to RabbitMQ 4.0.4 |
+| 2.0.3 | 4.0.5 | Upgraded to RabbitMQ 4.0.5 |
+| 2.0.4 | 4.0.6 | Upgraded to RabbitMQ 4.0.6 |
+| 2.0.5 | 4.0.7 | Upgraded to RabbitMQ 4.0.7 |
+| 2.0.6 | 4.0.8 | Upgraded to RabbitMQ 4.0.8 |
+| 2.0.7 | 4.0.9 | Upgraded to RabbitMQ 4.0.9 |
+| 2.1.0 | 4.1.0 | Upgraded to RabbitMQ 4.1.0 |
+| 2.1.1 | 4.1.1 | Upgraded to RabbitMQ 4.1.1 |
+| 2.1.2 | 4.1.2 | Upgraded to RabbitMQ 4.1.2 |
 | | | |

@@ -8,10 +8,10 @@ maintainers:
   - name: kienle1819
 
 # This is the chart version
-version: "0.11.3"
+version: "0.13.3"
 
 # This is the version number of the application being deployed.
-appVersion: "1.22.3"
+appVersion: "1.24.3"
 
 dependencies:
   - name: mariadb

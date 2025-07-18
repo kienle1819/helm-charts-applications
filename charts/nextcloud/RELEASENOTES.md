@@ -77,4 +77,16 @@
 | 0.18.0 | 30.0.0-apache | Upgraded to Nextcloud 30.0.0 |
 | 0.18.1 | 30.0.1-apache | Upgraded to Nextcloud 30.0.1 |
 | 0.18.2 | 30.0.2-apache | Upgraded to Nextcloud 30.0.2 |
+| 0.18.3 | 30.0.3-apache | Upgraded to Nextcloud 30.0.3 |
+| 0.18.4 | 30.0.4-apache | Upgraded to Nextcloud 30.0.4 |
+| 0.18.5 | 30.0.5-apache | Upgraded to Nextcloud 30.0.5 |
+| 0.18.6 | 30.0.6-apache | Upgraded to Nextcloud 30.0.6 |
+| 0.18.7 | 30.0.7-apache | Upgraded to Nextcloud 30.0.7 |
+| 0.19.0 | 31.0.0-apache | Upgraded to Nextcloud 31.0.0 |
+| 0.19.1 | 31.0.1-apache | Upgraded to Nextcloud 31.0.1 |
+| 0.19.2 | 31.0.2-apache | Upgraded to Nextcloud 31.0.2 |
+| 0.19.3 | 31.0.4-apache | Upgraded to Nextcloud 31.0.4 |
+| 0.19.4 | 31.0.5-apache | Upgraded to Nextcloud 31.0.5 |
+| 0.19.5 | 31.0.6-apache | Upgraded to Nextcloud 31.0.6 |
+| 0.19.6 | 31.0.7-apache | Upgraded to Nextcloud 31.0.7 |
 | | | |

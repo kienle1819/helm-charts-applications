@@ -54,11 +54,26 @@
 | 1.0.0 | 6.2.14 | Final version with configuration secret, extra config and extra volume support |
 | 1.0.1 | 6.2.14 | Fixed build pipeline issue |
 | 1.0.2 | 6.2.16 | Upgraded to Redis 6.2.16 |
+| 1.0.3 | 6.2.17 | Upgraded to Redis 6.2.17 |
+| 1.0.4 | 6.2.18 | Upgraded to Redis 6.2.18 |
+| 1.0.5 | 6.2.19 | Upgraded to Redis 6.2.19 |
 | 1.1.0 | 7.0.15 | Final version with configuration secret, extra config and extra volume support |
 | 1.2.0 | 7.2.4 | Final version with configuration secret, extra config and extra volume support |
 | 1.2.1 | 7.2.5 | Upgraded to Redis 7.2.4 |
 | 1.2.2 | 7.2.6 | Upgraded to Redis 7.2.6 |
+| 1.2.3 | 7.2.7 | Upgraded to Redis 7.2.7 |
+| 1.2.4 | 7.2.8 | Upgraded to Redis 7.2.8 |
+| 1.2.5 | 7.2.9 | Upgraded to Redis 7.2.9 |
+| 1.2.6 | 7.2.10 | Upgraded to Redis 7.2.10 |
 | 1.3.0 | 7.4.0 | Upgraded to Redis 7.4.0 |
 | 1.3.1 | 7.4.0 | Updated metrics exporter to v1.62.0 |
 | 1.3.2 | 7.4.1 | Upgraded to Redis 7.4.1 |
+| 1.3.3 | 7.4.2 | Upgraded to Redis 7.4.2 |
+| 1.3.4 | 7.4.3 | Upgraded to Redis 7.4.3 |
+| 1.3.5 | 7.4.4 | Upgraded to Redis 7.4.4 |
+| 1.3.6 | 7.4.5 | Upgraded to Redis 7.4.5 |
+| 2.0.0 | 8.0.0 | Upgraded to Redis 8.0.0 |
+| 2.0.1 | 8.0.1 | Upgraded to Redis 8.0.1 |
+| 2.0.2 | 8.0.2 | Upgraded to Redis 8.0.2 |
+| 2.0.3 | 8.0.3 | Upgraded to Redis 8.0.3 |
 | | | |

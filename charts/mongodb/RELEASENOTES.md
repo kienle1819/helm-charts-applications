@@ -88,6 +88,7 @@
 | 0.5.24 | 6.0.16 | Upgraded to MongoDB 6.0.16 |
 | 0.5.25 | 6.0.17 | Upgraded to MongoDB 6.0.17 |
 | 0.5.26 | 6.0.19 | Upgraded to MongoDB 6.0.19 |
+| 0.5.27 | 6.0.20 | Upgraded to MongoDB 6.0.20 |
 | 0.6.0 | 7.0.2 | Upgraded to MongoDB 7.0.2 |
 | 0.6.1 | 7.0.4 | Upgraded to MongoDB 7.0.4 |
 | 0.6.2 | 7.0.4 | Added support for network policies and additional labels and annotations |
@@ -98,4 +99,8 @@
 | 0.6.7 | 7.0.12 | Upgraded to MongoDB 7.0.12 |
 | 0.6.8 | 7.0.14 | Upgraded to MongoDB 7.0.14 |
 | 0.6.9 | 7.0.15 | Upgraded to MongoDB 7.0.15 |
+| 0.6.10 | 7.0.15 | Fixed permissions for keyfile - thx @thuanpham582002 |
+| 0.6.11 | 7.0.16 | Upgraded to MongoDB 7.0.16 |
+| 0.7.0 | 8.0.3 | Upgraded to MongoDB 8.0.3 |
+| 0.7.1 | 8.0.4 | Upgraded to MongoDB 8.0.4 |
 | | | |

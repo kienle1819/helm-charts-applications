@@ -82,4 +82,19 @@
 | 0.9.0 | 6.1.0 | Updated chart for Graylog 6.1.0 |
 | 0.9.1 | 6.1.1 | Updated chart for Graylog 6.1.1 |
 | 0.9.2 | 6.1.2 | Updated chart for Graylog 6.1.2 |
+| 0.9.3 | 6.1.3 | Updated chart for Graylog 6.1.3 |
+| 0.9.4 | 6.1.4 | Updated chart for Graylog 6.1.4 |
+| 0.9.5 | 6.1.5 | Updated chart for Graylog 6.1.5 |
+| 0.9.6 | 6.1.6 | Updated chart for Graylog 6.1.6 |
+| 0.9.7 | 6.1.6 | Added support for prometheus metrics and service-monitor - thx @alexmorbo |
+| 0.9.8 | 6.1.7 | Updated chart for Graylog 6.1.7 |
+| 0.9.9 | 6.1.8 | Updated chart for Graylog 6.1.8 |
+| 0.9.10 | 6.1.9 | Updated chart for Graylog 6.1.9 |
+| 0.9.11 | 6.1.10 | Updated chart for Graylog 6.1.10 |
+| 0.10.0 | 6.2.1 | Updated chart for Graylog 6.2.1 |
+| 0.10.1 | 6.2.2 | Updated chart for Graylog 6.2.2 |
+| 0.10.2 | 6.2.2 | Fixed pipeline |
+| 0.10.3 | 6.2.3 | Updated chart for Graylog 6.2.3 |
+| 0.10.4 | 6.2.5 | Updated chart for Graylog 6.2.5 |
+| 0.11.0 | 6.3.1 | Updated chart for Graylog 6.3.1 |
 | | | |
